@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce projet est une preuve de concept (POC) pour une application web d'architecture universelle construite avec Laravel comme backend et React avec Inertia.js comme frontend. L'application démontre comment créer une application web dynamique avec des capacités de rendu côté serveur tout en maintenant une expérience utilisateur fluide.
+Ce projet est un POC de Kitstarter pour une application web d'architecture universelle construite avec Laravel comme backend et React avec Inertia.js comme frontend. L'application démontre comment créer une application web dynamique avec des capacités de rendu côté serveur tout en maintenant une expérience utilisateur fluide.
 
 ## Fonctionnalités
 
