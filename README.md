@@ -1,4 +1,17 @@
-# POC - Archi Universelle
+## 📦 Versions & Dépendances
+
+| ⚙️ Technologie     | 🔢 Version recommandée |
+|--------------------|------------------------|
+| ![Laravel](https://img.shields.io/badge/Laravel-12.0-red?logo=laravel&logoColor=white) | `^12.0` |
+| ![Node.js](https://img.shields.io/badge/Node.js-%3E%3D22.14.0-339933?logo=node.js&logoColor=white) | `>= 22.14.0` |
+| ![Inertia.js](https://img.shields.io/badge/Inertia.js-2.0-800080?logo=laravel&logoColor=white) | `^2.0` |
+| ![Express](https://img.shields.io/badge/Express.js-4.18.0-black?logo=express&logoColor=white) | `^4.18.0` |
+| ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=black) | `^18.2.0` |
+| ![Vite](https://img.shields.io/badge/Vite-5.4.0-646CFF?logo=vite&logoColor=white) | `^5.4.0` |
+| ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.2.0-38B2AC?logo=tailwindcss&logoColor=white) | `^3.2.0` |
+
+
+# POC Kitstarter- Archi Universelle
 
 ## 🏗️ Architecture Universelle Laravel + Inertia + React (SSR)
 
