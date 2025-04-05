@@ -138,11 +138,16 @@ Cette application utilise Inertia.js pour activer le rendu côté serveur, ce qu
    php artisan serve
    ```
 
-   Dans un terminal séparé, démarrez le serveur de développement Vite :
+   Dans un terminal séparé, démarrez le serveur de développement Express :
+
+   ```bash
+   node server.js
+   ```
+
+   Dans un autre terminal, démarrez le serveur de développement Vite :
 
    ```bash
    npm run dev
-   ```
 
 7. **Accéder à l'application**
 
