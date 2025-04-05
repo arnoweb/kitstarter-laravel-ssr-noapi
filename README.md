@@ -1,3 +1,9 @@
+# POC Kitstarter - Archi Universelle
+
+## 🏗️ Architecture Universelle Laravel + Inertia + React (SSR)
+
+Cette architecture allie la robustesse de **Laravel (PHP)** à la puissance de **React**, tout en profitant des avantages du **rendu côté serveur (SSR)** via Vite, sans passer par une API traditionnelle.
+
 ## 📦 Versions & Dépendances
 
 | ⚙️ Technologie     | 🔢 Version recommandée |
@@ -10,12 +16,6 @@
 | ![Vite](https://img.shields.io/badge/Vite-5.4.0-646CFF?logo=vite&logoColor=white) | `^5.4.0` |
 | ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.2.0-38B2AC?logo=tailwindcss&logoColor=white) | `^3.2.0` |
 
-
-# POC Kitstarter- Archi Universelle
-
-## 🏗️ Architecture Universelle Laravel + Inertia + React (SSR)
-
-Cette architecture allie la robustesse de **Laravel (PHP)** à la puissance de **React**, tout en profitant des avantages du **rendu côté serveur (SSR)** via Vite, sans passer par une API traditionnelle.
 
 ### 🔁 Cheminement de la requête
 
