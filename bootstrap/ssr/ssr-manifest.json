@@ -1,0 +1,14 @@
+{
+  "\u0000vite/dynamic-import-helper.js": [],
+  "resources/js/Components/Navbar.jsx": [],
+  "resources/js/Pages/Category1.jsx": [
+    "/build/assets/Category1-DRCvnZUA.js"
+  ],
+  "resources/js/Pages/Category2.jsx": [
+    "/build/assets/Category2-BZvlKJqN.js"
+  ],
+  "resources/js/Pages/Home.jsx": [
+    "/build/assets/Home-DrcvGsOm.js"
+  ],
+  "resources/js/app.jsx": []
+}
