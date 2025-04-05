@@ -1,4 +1,4 @@
-# POC Kitstarter - Archi Universelle
+# POC/Kitstarter Application Web Next Gen - Archi Universelle - sans API
 
 ## 🏗️ Architecture Universelle Laravel + Inertia + React (SSR)
 
