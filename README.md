@@ -1,12 +1,12 @@
 # POC/Kitstarter Application Web Next Gen - Archi Universelle - sans API
 
-## 🏗️ Architecture Universelle Laravel + Inertia + React (SSR)
+## Architecture Universelle Laravel + Inertia + React (SSR)
 
 L'objectif principal de "Proof of Concept" est de créer une architecture NextGen d'une Web application performante
 qui permet de conserver à un unique endroit les règles métiers (backend Laravel), tout en profitant
 d'un frontend très performant, rapide pour l'utilisateur (React SSR).  
 
-## 📦 Versions & Dépendances
+## Versions & Dépendances
 
 | ⚙️ Technologie     | 🔢 Version recommandée |
 |--------------------|------------------------|
@@ -19,38 +19,38 @@ d'un frontend très performant, rapide pour l'utilisateur (React SSR).
 | ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.2.0-38B2AC?logo=tailwindcss&logoColor=white) | `^3.2.0` |
 
 
-### 🔁 Cheminement de la requête
+### Cheminement de la requête
 
-1. **🔹 Backend PHP (Laravel)**  
+1. **Backend PHP (Laravel)**  
    Laravel reçoit la requête HTTP, résout la route, et transmet la demande au moteur de rendu React via Inertia.js.
 
-2. **🔸 Middleware Inertia (Laravel)**  
+2. **Middleware Inertia (Laravel)**  
    Détermine quel composant React afficher et envoie ses props au serveur Node.js.
 
-3. **🔹 Backend Node.js (Express + Vite SSR)**  
+3. **Backend Node.js (Express + Vite SSR)**  
    Utilise Vite pour exécuter et pré-rendre les composants React en HTML.
 
-4. **🔸 Retour vers Laravel**  
+4. **Retour vers Laravel**  
    Le HTML généré est injecté dans une vue Blade, et renvoyé au client par Laravel.
 
-5. **🟢 Navigateur (Client)**  
+5. **Navigateur (Client)**  
    Le navigateur reçoit une page HTML pré-rendue. Le JavaScript se charge ensuite pour hydrater les composants React et activer l’interactivité.
 
 ---
 
-## 🚀 Avantages de l’architecture universelle **sans API**
+## Avantages de l’architecture universelle **sans API**
 
-✅ **Simplicité & rapidité de développement**
+**Simplicité & rapidité de développement**
 - Aucun besoin de créer et maintenir une API.
 - Un seul backend (Laravel) pour les règles métier, la sécurité et les routes.
 - Moins de duplication entre frontend et backend.
 
-⚡ **Performances optimales**
+**Performances optimales**
 - Rendu initial rapide grâce au SSR.
 - Expérience utilisateur fluide et immédiate.
 - Moins de charge côté client.
 
-🔍 **SEO & accessibilité**
+**SEO & accessibilité**
 - Le contenu HTML est visible dès le premier chargement.
 - Meilleure indexabilité par les moteurs de recherche.
 - Compatible avec les lecteurs d’écran.
@@ -101,8 +101,8 @@ Cette application utilise Inertia.js pour activer le rendu côté serveur, ce qu
 ### Étapes pour configurer le projet
 
 1. **Cloner le dépôt**
-
-   ```bash
+ 
+```bash
    git clone https://github.com/votreusername/poc-archi-universelle.git
    cd poc-archi-universelle
    ```
