@@ -2,7 +2,9 @@
 
 ## 🏗️ Architecture Universelle Laravel + Inertia + React (SSR)
 
-Cette architecture allie la robustesse de **Laravel (PHP)** à la puissance de **React**, tout en profitant des avantages du **rendu côté serveur (SSR)** via Vite, sans passer par une API traditionnelle.
+L'objectif principal de "Proof of Concept" est de créer une architecture NextGen d'une Web application performante
+qui permet de conserver à un unique endroit les règles métiers (backend Laravel), tout en profitant
+d'un frontend très performant, rapide pour l'utilisateur (React SSR).  
 
 ## 📦 Versions & Dépendances
 
@@ -166,23 +168,7 @@ Cette application utilise Inertia.js pour activer le rendu côté serveur, ce qu
 
    Ouvrez votre navigateur et allez à [http://127.0.0.1:8000/](http://127.0.0.1:8000/) pour voir l'application.
 
-## Utilisation
-
-- Naviguez à travers l'application en utilisant le menu dynamique.
-- Explorez différentes pages et observez le rendu côté serveur en action.
-- Modifiez les éléments du menu dans le `MenuController` pour voir les changements reflétés dans la barre de navigation.
-
-## Contribuer
-
-Les contributions sont les bienvenues ! Si vous avez des suggestions d'améliorations ou de nouvelles fonctionnalités, n'hésitez pas à ouvrir un problème ou à soumettre une demande de tirage.
-
 ## Licence
 
 Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
-## Remerciements
-
-- [Laravel](https://laravel.com/) - Le framework PHP utilisé pour le backend.
-- [Inertia.js](https://inertiajs.com/) - Le framework pour construire des applications à page unique en utilisant le routage côté serveur classique.
-- [React](https://reactjs.org/) - La bibliothèque JavaScript pour construire des interfaces utilisateur.
-- [Tailwind CSS](https://tailwindcss.com/) - Le framework CSS utilitaire pour le style.
